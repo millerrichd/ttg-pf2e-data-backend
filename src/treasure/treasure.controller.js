@@ -124,7 +124,7 @@ async function list(req, res, next) {
     }
   })
 
-  res.status(201).json({randomData});
+  res.status(200).json({randomData});
 }
 
 module.exports = {
